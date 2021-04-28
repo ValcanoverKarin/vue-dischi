@@ -45,6 +45,7 @@ main {
 .cd-title {
     color: white;
     margin: 15px 0;
+    text-transform: uppercase;
 }
 
 .cd-author,
@@ -54,5 +55,5 @@ main {
 }
 
 .cd-year {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }

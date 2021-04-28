@@ -29,9 +29,10 @@
                 <div v-for="cd in cds" class="cd">
                     <!------1e. vado a sostituire l immagine------>
                     <img :src="cd.poster" alt="">
-                    <div class="cd-title">NEW JERSEY</div>
-                    <div class="cd-author">Bon Jovi</div>
-                    <div class="cd-year">1988</div>
+                    <!------1f. vado a sostituire il titolo. l'autore e l'anno------>
+                    <div class="cd-title">{{ cd.title }}</div>
+                    <div class="cd-author">{{ cd.author }}</div>
+                    <div class="cd-year">{{ cd.year }}</div>
                 </div>
                 <!--end single cd-->
             </div>

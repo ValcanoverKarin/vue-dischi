@@ -1,3 +1,6 @@
+//1. Attraverso una chiamata ajax all’API di boolean avremo a disposizione una decina di dischi musicali. 
+//   Utilizzando vue, stampiamo a schermo una card per ogni album.
+
 var app = new Vue (
     {
         el: '#root',
