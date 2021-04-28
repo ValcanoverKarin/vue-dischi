@@ -5,15 +5,19 @@
     box-sizing: border-box;
 }
 
+.cds-container img {
+    width: 100%;
+    display: block;
+}
+
 /* HEADER */
 header {
     background-color: #2e3b46;
     padding: 7px 10px;
 }
 
-header img {
+.logo {
     width: 34px;
-    display: block;
 }
 
 /*MAIN*/
@@ -30,20 +34,25 @@ main {
 }
 
 .cd {
-    width: calc( ( 100% / 6 ) -80px );
+    width: calc( ( 100% / 8 ) );
     text-align: center;
     background-color: #2d3b46;
     padding: 15px;
-    margin: 0 20px;
-    margin-bottom: 20px;
+    margin: 0 15px;
+    margin-bottom: 13px;
 }
 
 .cd-title {
     color: white;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .cd-author,
 .cd-year {
     color: #62666b;
+    font-size: 14px;
+}
+
+.cd-year {
+    margin-bottom: 20px;
 }
