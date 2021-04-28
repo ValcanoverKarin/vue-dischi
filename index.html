@@ -14,8 +14,30 @@
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
 <body>
-    <div id="root"></div>
-    
+    <div id="root">
+        <!--HEADER-->
+        <header>
+            <img src="img/download.png" alt="Logo">
+        </header>
+        <!--END HEADER-->
+
+        <!--MAIN-->
+        <main>
+            <div class="cds-container">
+                <!--single cd-->
+                <div v-for="number in 10" class="cd">
+                    <img src="" alt="">
+                    <div class="cd-title">NEW JERSEY</div>
+                    <div class="cd-author">Bon Jovi</div>
+                    <div class="cd-year">1988</div>
+                </div>
+                <!--end single cd-->
+            </div>
+        </main>
+        <!--END MAIN-->
+
+    </div>
+
     
     <script src="js/script.js"></script>
 </body>

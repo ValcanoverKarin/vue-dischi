@@ -1,6 +1,49 @@
 /* RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+    background-color: #2e3b46;
+    padding: 7px 10px;
+}
+
+header img {
+    width: 34px;
+    display: block;
+}
+
+/*MAIN*/
+main {
+    background-color: #1e2e3d;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cds-container {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cd {
+    width: calc( ( 100% / 6 ) -80px );
+    text-align: center;
+    background-color: #2d3b46;
+    padding: 15px;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+.cd-title {
+    color: white;
+    margin: 20px 0;
+}
+
+.cd-author,
+.cd-year {
+    color: #62666b;
 }

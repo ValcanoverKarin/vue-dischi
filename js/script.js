@@ -7,5 +7,6 @@ var app = new Vue (
         methods: {
 
         },
+        mounted() {}
     }
 );
